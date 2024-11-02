@@ -6,10 +6,10 @@ const WebSocket = require('ws')
 const nanoid = require('nanoid')
 const fetch = require('node-fetch')
 
-const hostname = '0.0.0.0'
+const hostname = 'localhost'
 const port = process.env.PORT || 8080
-const client_id = 'cplheah4pxjyuwe9mkno9kbmb11lyc'
-const redirect_uri = 'https://deckmaster.fugi.tech/login'
+const client_id = 'i9hhrosniixxlc3uynl0g3g8eajlvb'
+const redirect_uri = 'http://localhost/login'
 const ext_secret = Buffer.from(process.env.EXT_SECRET, 'base64')
 const client_secret = process.env.CLIENT_SECRET
 
